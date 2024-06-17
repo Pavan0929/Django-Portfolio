@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.full-screen {
+    height: 100vh;
+}
+.card {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+#profile-pic{
+    border-radius: 5%;
+}
+/* .card img {
+    max-width: 100%;
+    height: auto;
+} */
+h4{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* The animation code */
+@keyframes forbody {
+    from {background-color: rgb(237, 237, 237);}
+    to {background-color: rgb(203, 243, 245);}
+  }
+  /* The element to apply the animation to */
+  body {
+    
+    background-color: rgb(252, 249, 249);
+    animation-name: forbody;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+  }
